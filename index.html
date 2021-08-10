@@ -9,14 +9,22 @@
   </head>
   <body>
     <div class="tab">
-      <button class="tablinks" onclick="openInfo(event, 'London')">London</button>
+      <button class="tablinks" onclick="openInfo('info')">info</button>
     </div>
     <div id="London" class="tabcontent">
-      <h1>g</h1>
+      <h1>Name:Mike Schultz <br> info:info</h1>
         <button>
           <span onclick="London.style.display='none'">Hide</span>
           </button> 
       </div>
+      <dialog open>Hello, <br> welcome to my website</dialog>
+      <div>
+        <button id="myBtn">More info</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+             <p>info</p>
+        </div>
     <script src="script.js"></script>
   </body>
 </html>
